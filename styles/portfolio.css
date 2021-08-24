@@ -1,10 +1,39 @@
-
-
-h1 {
-    font-family: "Crimson Pro", serif;
-    background: #B6b799;
+:root {
+  --primary-color: #b6b799;
+  --secondary-color: #d0b8a1;
+  --accent-color: #ddaa6b;
+  --text-color: #514d36;
+  --header-font: "Crimson Pro", serif;
+  --text-font: "Poppins", sans-serif;
 }
 
-h2 {
-    font-family: "Poppins", sans-serif;
+body {
+  font-family: var(--text-font);
+}
+
+.hero {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+h1 {
+  font-family: var(--header-font);
+  font-size: 68px;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-size: 20px;
+}
+
+.hero h3 {
+  font-size: 16px;
+}
+
+.btn-branding {
+  background: var(--accent-color);
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: white;
 }
