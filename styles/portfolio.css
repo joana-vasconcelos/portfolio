@@ -39,18 +39,56 @@ h1 {
 }
 
 .container h2 {
-    font-family: var(--header-font);
-    font-size: 40px;
+  font-family: var(--header-font);
+  font-size: 40px;
 }
 
 .container p {
-    font-size: 14px;
-    line-height: 1.8;
-    text-align: justify;
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: justify;
 }
 
 img {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  .hero h2 {
+    font-size: 14px;
+  }
+
+  .hero h3 {
+    font-size: 12px;
+  }
+
+  .hero {
+    padding: 70px 25px;
+  }
+
+  .container h2 {
+    font-size: 30px;
+  }
+
+  .container p {
+    font-size: 12px;
+    margin: 20px;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .container .btn-branding {
+    margin-bottom: 20px;
+    font-size: 13px;
+    padding: 8px 13px;
+  }
 }
