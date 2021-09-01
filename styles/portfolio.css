@@ -58,12 +58,34 @@ h1 {
   text-decoration: underline;
 }
 
-img {
+.projects {
   width: 80%;
   display: block;
   margin: 0 auto;
   border-radius: 3px;
 }
+
+.profile-picture {
+  width: 65%;
+  border: 10px solid var(--secondary-color);
+  border-radius: 2px;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-section {
+  margin: 40px auto;
+}
+
+.about-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  margin-bottom: 30px;
+}
+
 
 @media (max-width: 576px) {
   h1 {
