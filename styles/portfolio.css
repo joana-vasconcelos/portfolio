@@ -14,7 +14,7 @@ body {
 .hero {
   background: var(--primary-color);
   text-align: center;
-  padding: 80px 20px;
+  padding: 40px 20px 80px;
 }
 
 h1 {
@@ -40,11 +40,11 @@ h1 {
 
 .container h2 {
   font-family: var(--header-font);
-  font-size: 40px;
+  font-size: 38px;
 }
 
 .container p {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.8;
   text-align: justify;
 }
@@ -58,7 +58,7 @@ h1 {
 }
 
 .projects {
-  width: 80%;
+  max-width: 80%;
   display: block;
   margin: 0 auto;
   border-radius: 3px;
@@ -74,7 +74,6 @@ h1 {
 
 .content {
   margin: 40px auto;
-  
 }
 
 .content h2 {
@@ -88,6 +87,38 @@ h1 {
 
 h4 {
   text-align: center;
+  font-family: var(--header-font);
+}
+
+nav {
+  margin-bottom: 50px;
+  margin-top: -10px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav li.active a {
+  font-weight: bold;
 }
 
 @media (max-width: 576px) {
@@ -128,5 +159,9 @@ h4 {
 
   h4 {
     font-size: 16px;
+  }
+
+  nav {
+    margin-top: -40px;
   }
 }
