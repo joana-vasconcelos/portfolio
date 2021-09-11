@@ -121,6 +121,51 @@ nav li.active a {
   font-weight: bold;
 }
 
+footer {
+  margin: 50px 0;
+}
+
+footer .contact-box {
+  background: var(--primary-color);
+  padding: 30px 120px;
+  border-radius: 5px;
+}
+
+footer .contact-box h4 {
+  font-size: 44px;
+}
+
+footer .contact-box p {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  font-size: 22px;
+  text-align: center;
+  color: black;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: white;
+  background: var(--primary-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background: var(--accent-color);
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 42px;
