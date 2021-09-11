@@ -121,6 +121,10 @@ nav li.active a {
   font-weight: bold;
 }
 
+.certificate {
+  width: 100%;
+}
+
 footer {
   margin: 50px 0;
 }
@@ -187,6 +191,11 @@ footer .social-links a:hover {
     font-size: 30px;
   }
 
+  .container h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+
   .container p {
     font-size: 12px;
     margin: 20px;
@@ -204,6 +213,11 @@ footer .social-links a:hover {
 
   h4 {
     font-size: 16px;
+  }
+
+  .content h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
   }
 
   nav {
